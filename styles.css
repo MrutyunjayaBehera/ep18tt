@@ -20,8 +20,12 @@ body{
 }
 
 .container .row .col{
-  padding: 10px;
+  padding: 5px;
   margin: 5px;
+}
+
+.container .row .col a{
+  text-decoration: none;
 }
 
 .st{
