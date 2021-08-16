@@ -56,6 +56,21 @@ body{
   box-shadow: 2px 2px 6px #c6c6c6,
     -2px -2px 6px #ffffff;
 }
+.se {
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px #c6c6c6,
+    -2px -2px 6px #ffffff;
+}
+.sf {
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px #c6c6c6,
+    -2px -2px 6px #ffffff;
+}
+.sg {
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px #c6c6c6,
+    -2px -2px 6px #ffffff;
+}
 .sp {
   border-radius: 10px;
   box-shadow: 2px 2px 6px #c6c6c6,
