@@ -84,3 +84,13 @@ body{
   box-shadow: 2px 2px 6px #c6c6c6,
     -2px -2px 6px #ffffff;
 }
+.sr {
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px #c6c6c6,
+    -2px -2px 6px #ffffff;
+}
+.ss {
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px #c6c6c6,
+    -2px -2px 6px #ffffff;
+}
