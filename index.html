@@ -13,7 +13,47 @@
 </head>
 
 <body>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="">
+      <img src="navIcon.jpg" width="35px" alt="">
+    </a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="">Timetable<span class="sr-only">(current)</span></a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Running Courses</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownId">
+            <a class="dropdown-item" href="#np">Nuclear Physics(1)</a>
+            <a class="dropdown-item" href="#">Accelerator Physics(2)</a>
+            <a class="dropdown-item" href="#">Atomic & Mol Physics(1)</a>
+            <a class="dropdown-item" href="#">Particle Physics(2)</a>
+            <a class="dropdown-item" href="#">Solid State Physics(2)</a>
+            <a class="dropdown-item" href="#">Personal Development(1)</a>
+            <a class="dropdown-item" href="#">Structural Organisation(1)</a>
+            <a class="dropdown-item" href="#">Physics Laboratory(2)</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
   <div class="container mt-5">
+    <h4>Timetable</h4>
+    <hr>
     <div class="row stable">
       <div class="col st">Timing</div>
       <div class="col st">9-10</div>
@@ -24,7 +64,7 @@
       <div class="col st">14:30-16</div>
       <div class="col st">16-17:30</div>
     </div>
-    <hr>
+    <!-- <hr> -->
     <!-- ------------------------------------------------- -->
     <div class="row">
       <div class="col st">Monday</div>
@@ -32,7 +72,7 @@
           class="btn">Nuclear Phy (EP3537)</a></div>
       <div class="col sb"><a href="http://meet.google.com/dyo-pqgn-djo" target="_blank" class="btn">Acceler Phy
           (EP3027)</a></div>
-      <div class="col sc"><a href="" target="_blank" class="btn">Math Phy (EP3130)</a></div>
+      <div class="col sc"><a href="" target="_blank" class="btn"></a></div>
       <div class="col sd"><a href="http://meet.google.com/jsp-ajia-jze" target="_blank" class="btn">A&Mol. Phy
           (EP3287)</a></div>
       <div class="col d-flex justify-content-center align-items-center">L</div>
@@ -59,7 +99,7 @@
       <div class="col st">Wednesday</div>
       <div class="col sb"><a href="http://meet.google.com/dyo-pqgn-djo" target="_blank" class="btn">Acceler Phy
           (EP3027)</a></div>
-      <div class="col sc"><a href="" target="_blank" class="btn">Math Phy (EP3130)</a></div>
+      <div class="col sc"><a href="" target="_blank" class="btn"></a></div>
       <div class="col sa"><a href="https://meet.google.com/lookup/cfjxawp4t2?authuser=0&hs=179" target="_blank"
           class="btn">Nuclear Phy (EP3537)</a></div>
       <div class="col sg"><a href="" target="_blank" class="btn">Structure Organi. (LA1260)</a></div>
@@ -71,7 +111,7 @@
     <!-- ---------------------------------------------------------- -->
     <div class="row">
       <div class="col st">Thursday</div>
-      <div class="col sc"><a href="" target="_blank" class="btn">Math Phy (EP3130)</a></div>
+      <div class="col sc"><a href="" target="_blank" class="btn"></a></div>
       <div class="col sa"><a href="https://meet.google.com/lookup/cfjxawp4t2?authuser=0&hs=179" target="_blank"
           class="btn">Nuclear Phy (EP3537)</a></div>
       <div class="col sb"><a href="http://meet.google.com/dyo-pqgn-djo" target="_blank" class="btn">Acceler Phy
@@ -106,6 +146,31 @@
       <div class="col d-flex justify-content-center align-items-center"> 🧮  </div>
       <div class="col sa"></div>
       <div class="col sa"></div>
+    </div>
+  </div>
+
+  <div class="container" style="margin-top: 50px;">
+    <div class="row" id="np">
+      <div class="col-md-12">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Course</th>
+              <th scope="col">Grading Policy</th>
+              <th scope="col">References</th>
+              <th scope="col">Join class</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Nuclear Physics</th>
+              <td>Ram</td>
+              <td>Laxman</td>
+              <td>Seeta</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 
